@@ -1,0 +1,31 @@
+{
+  "name": "fe-news-bot",
+  "version": "1.0.0",
+  "description": "FE News 업데이트를 알려주는 슬랙 봇 입니다.",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yami03/fe-news-bot.git"
+  },
+  "author": "sla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yami03/fe-news-bot/issues"
+  },
+  "homepage": "https://github.com/yami03/fe-news-bot#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@octokit/core": "^3.2.1",
+    "@slack/webhook": "^5.0.3",
+    "@types/node": "^14.14.6",
+    "@types/node-fetch": "^2.5.7",
+    "node-fetch": "^2.6.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
