@@ -10,7 +10,7 @@ on:
 #     - master
   schedule:
     # test
-    - cron: "0 20 17 ? 1/1 SUN#1 *"
+    - cron: "0 10 * * WED"
 
 jobs:
   build:
