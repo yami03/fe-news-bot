@@ -17,7 +17,7 @@ export default async ({ data, url }: slackArgs) => {
     attachments: [],
   };
 
-  if (!data[data.length - 1].name.includes(`${year}-${10}`) || date > 7) {
+  if (!data[data.length - 1].name.includes(`${year}-${month}`) || date > 7) {
     return;
   }
 
