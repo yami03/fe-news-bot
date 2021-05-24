@@ -4,7 +4,7 @@ Naver에서 발행하는 [FE News](https://github.com/naver/fe-news)의 업데�
 
 ## 사용방법 
 
-1. project를 Clone합니다.
+1. project를 Fork합니다.
 2. [Incoming WebHooks](https://66lounge.slack.com/apps/A0F7XDUAZ-incoming-webhooks) URL이 필요합니다. WebHook의 URL을 [Github Secrets](https://docs.github.com/en/actions/reference/encrypted-secrets)에 등록해 주세요. 
 웹훅이 여러개 일 경우엔 `,`로 구분해 주세요.
 ```
