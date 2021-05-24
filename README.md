@@ -11,8 +11,11 @@ Naver에서 발행하는 [FE News](https://github.com/naver/fe-news)의 업데�
 https://hooks.slack.com/services/a1,
 https://hooks.slack.com/services/a2
 ```
+![secrets.png](https://github.com/yami03/fe-news-bot/blob/main/assets/secrets.png)
 
 ## Slack 메시지
+
+![Slack Image](https://github.com/yami03/fe-news-bot/blob/main/assets/slack.png)
 
 ## 참고 
 * [GitHub Action을 사용해 새로 올라온 전월세 방 목록 받아보기](https://ahnheejong.name/articles/receive-new-room-notification-mails-using-github-action/)
